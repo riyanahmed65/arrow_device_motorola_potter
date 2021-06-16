@@ -189,9 +189,9 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+    MRadio \
+    libfmjni \
+    init.qti.fm.sh
     
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -262,7 +262,7 @@ PRODUCT_PACKAGES += \
 
 # MotoActions
 PRODUCT_PACKAGES += \
-    MotoActions
+   MotoActions
 #added MotoAction in android/hardware/MotoAction from lineage os
 
 # Media (OMX)
